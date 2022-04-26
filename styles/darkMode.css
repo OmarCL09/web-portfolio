@@ -1,0 +1,52 @@
+/*----Dark mode----*/
+.Dark{
+    background-color: #1d1d1d;
+}
+.DarkArrow img{
+    opacity: 0.2;
+}
+.DarkText{
+    color:#c9c9c9;
+}
+.DarkTitle{
+    color: #58EDB1;
+}
+.DarkCard{
+    box-shadow: -1px 2px 10px -3px white;
+    border: 1px solid white;
+}
+.DarkSkill{
+    background-color: #555;
+}
+.DarkCircle{
+    background-color: #fff;
+}
+.DarkCharge{
+    background-color: #ffffff;
+}
+/*----White mode----*/
+.White{
+    background-color: #d3d2d2;
+}
+.WhiteArrow img{
+    opacity: 0.5;
+}
+.WhiteText{
+    color: #181818;   
+}
+.WhiteTitle{
+    color: #d96893;
+}
+.WhiteCard{
+    box-shadow: -1px 2px 10px -3px black;
+    border: 1px solid black;
+}
+.WhiteSkill{
+    background-color: #fff;
+}
+.WhiteCircle{
+    background-color: #181818;
+}
+.WhiteCharge{
+    background-color: #58EDB1;
+}

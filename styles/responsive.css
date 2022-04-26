@@ -1,0 +1,641 @@
+/*----------Modificaciones responsive height----------*/
+@media(max-height: 800px){
+    .name-container{
+        height: 26vh;
+    }
+    .main-menu h6{
+        top: 91%;
+    }
+    .name-container h1{
+        height: 26%;
+    }
+    .name-container h1:nth-child(2){
+        height: 27%;
+    }
+    .main-menu-responsive{
+        height: 10vh;
+    }
+    .responsive-menu img{
+        height: 5vh;
+    }
+    .responsive-dark img{
+        height: 7vh;
+    }
+    .responsive-information{
+        height: 90vh;
+    }
+    .responsive-information h1{
+        bottom: 2%;
+    }
+}
+@media(max-height:705px){
+    .responsive-information a{
+        font-size: 1.5em;
+    }
+    .social-medias-responsive a img{
+        height: 7vh;
+    }
+    .cvenglish{
+        height: 85vh;
+    }
+    .cvspanish{
+        height: 85vh;
+    }
+    .container{
+        padding: 0;
+    }
+    .titleskills{
+        top: 4%;
+        font-size: 2em;
+    }
+    .titlecv{
+        top: 3%;
+        font-size: 1.5em;
+        margin: 0;
+    }
+}
+@media(max-height:640px){
+    .basic-info h1{
+        font-size: 2em;
+    }
+    .hobbies-aboutme h1{
+        font-size: 2em;
+    }
+    
+}
+@media(max-height:620px){
+    .main-menu h6{
+        top: 89%;
+    }
+    .information-about-me p{
+        font-size: 1.2em;
+    }
+    .hobbies-aboutme h1{
+        margin: 0 0 5% 0;
+    }
+    .icons-img-hobbies div h5{
+        font-size: 1em;
+    }
+    .Makefs{
+        height: 80%;
+    }
+    .Physics{
+        height: 80%;
+    }
+    .container .button{
+        margin: 0 0 20px 0;
+    }
+    .titleproject{
+        top: 3%;
+    }
+    
+}
+@media(max-height:570px){
+    .titleskills{
+        top: 1%;
+    }
+    .container .button{
+        margin: 0 0 40px 0;
+    }
+}
+@media(max-height:530px){
+    .responsive-information h1{
+        font-size: 0.8em;
+    }
+    .responsive-information a{
+        font-size: 1em;
+    }
+}
+/*----------------------------------------------------*/
+/*----------Modificaciones responsive width----------*/
+@media(max-width: 1750px){
+    .main-menu{
+        width: 7.7%;
+    }
+    .information-blog div p{
+        font-size: 1.1em;
+    }
+}
+@media(max-width: 1780px){
+    #arrow-container{
+        display: none;
+    }
+    .message-arrow-container{
+        width: 100%;
+    }
+}
+@media(max-width: 1570px){
+    .computer-intro-message{
+        font-size: 1.8em;
+    }
+}
+@media(max-width: 1520px){
+    .main-menu{
+        width: 8.7%;
+    }
+    .computer-intro-message{
+        width: 50%;
+    }
+}
+@media(max-width: 1500px){
+    .cvspanish{
+        width: 30%;
+        height: 70%;
+    }
+    .cvenglish{
+        width: 30%;
+        height: 70%;
+    }
+}
+@media(max-width: 1408px){
+    .information-about-me{
+        overflow-y: scroll !important;
+    }
+}
+@media(max-width: 1350px){
+    .main-menu{
+        width: 10%;
+    }
+    .basic-info{
+        width: 35%;
+    }
+    .basic-info h1{
+        font-size: 2em;
+    }
+    .hobbies-aboutme{
+        width: 35%;
+    }
+    .hobbies-aboutme h1{
+        font-size: 2em;
+    }
+    .information-about-me p{
+        font-size: 1.2em;
+    }
+    .icons-img-hobbies div h5{
+        font-size: 1em;
+    }
+}
+@media(max-width: 1350px){
+    .cvspanish{
+        width: 38%;
+    }
+    .cvenglish{
+        width: 38%;
+    }
+}
+@media(max-width: 1170px){
+    .main-menu{
+        width: 11.5%;
+    }
+    .basic-info{
+        width: 38%;
+    }
+    .basic-info h1{
+        font-size: 2em;
+    }
+    .hobbies-aboutme{
+        width: 38%;
+    }
+    .hobbies-aboutme h1{
+        font-size: 2em;
+        margin: 0 0 12% 0;
+    }
+    .information-about-me p{
+        font-size: 1.07em;
+    }
+    .icons-img-hobbies div h5{
+        font-size: 1em;
+    }
+    .icons-img-hobbies div{
+        width: 25%;
+    }
+    .Makefs{
+        height: 85%;
+    }
+    .Physics{
+        height: 85%;
+    }
+    .titleproject{
+        top: 3%;
+    }
+}
+@media(max-width: 1100px){
+    .main-card .cards .card{
+        margin: 3%;
+    }
+}
+
+@media(max-width: 1015px){
+    .main-menu{
+        width: 13.5%;
+    }
+    .card .content .technologies{
+        font-size: 1.2em;
+    }
+    .container .main-card .cards{
+        margin: 0 60px;
+    }
+    .main-card .cards .card{
+        width: 30%;
+    }
+}
+@media(max-width: 960px){
+    .information-blog div p{
+        margin-top: 0;
+        font-size: 1em;
+    }
+}
+@media(max-width: 865px){
+    .main-menu{
+        display: none;
+    }
+    .main-menu-responsive{
+        display: flex;
+        z-index: 150;
+    }
+    #About-me{
+        margin-left: 0;
+        width: 100%;
+        position: relative;
+        height: 94vh;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .dark-mode-computer{
+        display: none;
+    }
+    .bubble{
+        width: 30px;
+        height: 30px;
+        bottom: -10%;
+        left: 5%;
+        animation-delay: 6s;
+    }
+    .bubble:nth-child(1){
+        width: 30px;
+        height: 30px;
+        bottom: -10%;
+        left: 15%;
+        animation-delay: 2s;
+    }
+    .bubble:nth-child(2){
+        width: 30px;
+        height: 30px;
+        bottom: -10%;
+        left: 32%;
+        animation-delay: 4s;
+    }
+    .bubble:nth-child(3){
+        width: 30px;
+        height: 30px;
+        bottom: -10%;
+        left: 45%;
+        animation-delay: 3s;
+    }
+    .bubble:nth-child(4){
+        width: 30px;
+        height: 30px;
+        bottom: -10%;
+        left: 60%;
+        animation-delay: 7s;
+    }
+    .bubble:nth-child(5){
+        width: 30px;
+        height: 30px;
+        bottom: -10%;
+        left: 72%;
+        animation-delay: 9s;
+    }
+    .bubble:nth-child(6){
+        width: 30px;
+        height: 30px;
+        bottom: -10%;
+        left: 95%;
+        animation-delay: 10s;
+    }
+    .computer-intro-message{
+        display: none;
+    }
+    .responsive-intro-message{
+        display: flex;
+    }
+    .icons-img-hobbies{
+        height: 65%;
+    }
+    .my-projects{
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        padding-bottom: 5%;
+    }
+    .my-projects .bubble-container{
+        display: none;
+    }
+    .Makefs{
+        width: 90%;
+        height: 90%;
+        margin: 5% 0 5% 0;
+    }
+    .Physics{
+        width: 90%;
+        height: 90%;
+        margin: 5% 0 5% 0;
+    }
+    .container .main-card .cards{
+        margin: 0 20px;
+    }
+    .main-card .cards .card{
+        width: 40%;
+    }
+    .titleskills{
+        top: 0%;
+        text-align: center;
+        position: relative;
+    }
+    .Makefs{
+        margin: 5% 0 5% 0;
+    }
+    .titleproject{
+        position: relative;
+    }
+    .information-about-me{
+        padding-bottom: 5%;
+    }
+    .my-skills{
+        padding-bottom: 5%;
+    }
+    .my-projects{
+        padding-bottom: 5%;
+    }
+    .curriculum-vitae{
+        padding-bottom: 5%;
+    }
+
+}
+@media(max-width: 800px){
+    .container .main-card .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-card .cards .card{
+        width: 80%;
+    }
+    
+
+}
+@media(max-width: 770px){
+    .basic-info{
+        width: 90%;
+    }
+    .basic-info h1{
+        font-size: 1.5em;
+        margin: 0;
+    }
+    .hobbies-aboutme h1{
+        font-size: 1.5em;
+        margin: 0 0 7% 0;
+    }
+    .hobbies-aboutme{
+        width: 90%;
+        height: 22%;
+    }
+    .icons-img-hobbies{
+        width: 95%;
+    }
+    .information-about-me{
+        padding: 3% 0 0 0;
+        padding-bottom: 5%;
+    }
+    .curriculum-vitae{
+        overflow-y: scroll;
+        height: fit-content;
+        flex-direction: column;
+    }
+    .cvspanish{
+        height: 70vh;
+        width: 65%;
+        margin: 5%;
+    }
+    .cvenglish{
+        height: 70vh;
+        width: 65%;
+    }
+    .information-blog div p{
+        font-size: 1.1em;
+    }
+    .curriculum-vitae .bubble-container{
+        display: none;
+    }
+    .titlecv{
+        position: relative;
+        font-size: 1.5em;
+        margin: 5% 0 0 0;
+    }
+    .cvmain{
+        flex-direction: column;
+    }
+}
+@media(max-width: 560px){
+    .cvspanish{
+        height: 60vh;
+        width: 80%;
+    }
+    .cvenglish{
+        height: 60vh;
+        width: 80%;
+    }
+    .information-blog div p{
+        font-size: 1.2em;
+    }
+    .Makefs{
+        margin: 25% 0 5% 0;
+    }
+}
+@media(max-width: 530px){
+    .cvspanish{
+        height: 80vh;
+    }
+    .cvenglish{
+        height: 80vh;
+    }
+}
+@media(max-width: 515px){
+    .hobbies-aboutme h1{
+        margin: 0 0 12% 0;
+    }
+}
+@media(max-width: 430px){
+    .computer-blog-message{
+        font-size: 1.5em;
+        text-align: center;
+        color: #909096;
+        width: 80%;
+    }
+}
+@media(max-width: 400px){
+    .information-blog div p{
+        font-size: 1em;
+    }
+    .MakefsInfo{
+        font-size: 1.1em;
+    }
+    .PhysicsInfo{
+        font-size: 1.1em;
+    }
+    .titleproject{
+        font-size: 2em;
+    }
+}
+@media(max-width: 330px){
+    .information-blog div p{
+        font-size: 1em;
+    }
+}
+@media(max-width: 301px){
+    .responsive-title{
+        display: none !important;
+    }
+    .cvspanish{
+        height: 90vh;
+    }
+    .cvenglish{
+        height: 90vh;
+    }
+}
+@media(min-width: 866px){
+    .responsive-information{
+        display: none !important;
+    }
+}
+  @media (max-width: 600px) {
+    .main-card .cards .card{
+      /* margin: 20px 0 10px 0; */
+      width: 100%;
+    }
+  }
+/*----------------------------------------------------*/
+/*------------Dispositivos especificos----------------*/
+
+@media(max-height:470px) and (max-width:1700px){
+    .MakefsInfo{
+        font-size: 1.1em;
+    }
+    .PhysicsInfo{
+        font-size: 1.1em;
+    }
+}
+@media(height:1368px) and (width:1700px){
+    .main-menu{
+        display: none;
+    }
+    .main-menu-responsive{
+        display: flex;
+        z-index: 1;
+    }
+    .responsive-title h5{
+        font-size: 2em;
+    }
+    .responsive-information{
+        display: flex !important;
+    }
+    .responsive-information a{
+        font-size: 5em;
+    }
+    .responsive-information h1{
+        font-size: 3em;
+    }
+    .computer-intro-message{
+        display: none;
+    }
+    .responsive-intro-message{
+        display: flex;
+        font-size: 2.5em;
+    }
+    #About-me{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media(height:1180px) and (width:820px){
+    .hobbies-aboutme{
+        height: 20%;
+    }
+    .information-about-me{
+        padding-top: 6%;
+    }
+    .information-about-me p{
+        font-size: 1.4em;
+    }
+    .computer-blog-message{
+        font-size: 3em;
+    }
+    .subtitle-blog{
+        font-size: 1.5em;
+    }
+    .curriculum-vitae .bubble-container{
+        display: none;
+    }
+    .curriculum-vitae{
+        display: flex;
+        flex-direction: column;
+    }
+    .cvspanish{
+        width: 60%;
+    }
+    .cvenglish{
+        width: 60%;
+    }
+    .information-blog div p{
+        font-size: 1.5em;
+    }
+}
+@media(height:653px) and (width:280px){
+    .responsive-information a{
+        font-size: 2em;
+    }
+}
+@media(max-width:1900px) and (max-height:720px){
+    #About-me{
+        height: 100vh !important;
+    }
+}
+@media(max-width:1650px) and (max-height:655px){
+    .PhysicsInfo{
+        font-size: 1em;
+    }
+    .MakefsInfo{
+        font-size: 1em;
+    }
+}
+@media(max-width:865px) and (max-height:800px){
+    #About-me{
+        height: 90vh !important;
+    }
+}
+@media(max-width:865px) and (max-height:890px){
+    .information-about-me{
+        padding-top: 5%;
+    }
+}
+@media(width:768px) and (height:1024px){
+    .information-blog div p{
+        font-size: 1.6em;
+    }
+}
+@media(width:1024px) and (height:600px){
+    .MakefsInfo{
+        font-size: 1.2em;
+    }
+    .PhysicsInfo{
+        font-size: 1.2em;
+    }
+    .container .button{
+        margin: 0 0 20px 0;
+        position: absolute;
+        top: 5%;
+    }
+    .titleskills{
+        display: none;
+    }
+}
+/*----------------------------------------------------*/
