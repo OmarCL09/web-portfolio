@@ -325,7 +325,7 @@
     .my-projects{
         flex-wrap: wrap;
         overflow-y: scroll;
-        padding-bottom: 5%;
+        padding-bottom: 35%;
     }
     .my-projects .bubble-container{
         display: none;
@@ -358,16 +358,16 @@
         position: relative;
     }
     .information-about-me{
-        padding-bottom: 5%;
+        padding-bottom: 35%;
     }
     .my-skills{
-        padding-bottom: 5%;
+        padding-bottom: 35%;
     }
     .my-projects{
-        padding-bottom: 5%;
+        padding-bottom: 35%;
     }
     .curriculum-vitae{
-        padding-bottom: 5%;
+        padding-bottom: 35%;
     }
 
 }
@@ -404,7 +404,7 @@
     }
     .information-about-me{
         padding: 3% 0 0 0;
-        padding-bottom: 5%;
+        padding-bottom: 35%;
     }
     .curriculum-vitae{
         overflow-y: scroll;
