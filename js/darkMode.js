@@ -10,7 +10,6 @@ let title = document.querySelectorAll('.DarkTitle');
 let cards = document.querySelectorAll('.DarkCard');
 let cardSkill = document.querySelectorAll('.card');
 let circle = document.querySelectorAll('.DarkCircle');
-let loading = document.querySelectorAll('#loading-container');
 let charge = document.querySelector('.color');
 /*---Code---*/
 if (localStorage.getItem("Theme") == null){
@@ -38,9 +37,7 @@ if (localStorage.getItem("Theme") == null){
         circle.forEach(circle =>{
             circle.classList.replace('DarkCircle','WhiteCircle');
         })
-        loading.forEach(load =>{
-            load.classList.replace('Dark','White');
-        })
+
     }else{
         imagentb.src="./img/icons/sun.png";
         body.classList.replace('White', 'Dark');
@@ -62,9 +59,7 @@ if (localStorage.getItem("Theme") == null){
         circle.forEach(circle =>{
             circle.classList.replace('WhiteCircle','DarkCircle');
         })
-        loading.forEach(load =>{
-            load.classList.replace('White','Dark');
-        })
+
     }
 }
 function cambiarModo(e){
@@ -92,9 +87,7 @@ function cambiarModo(e){
         circle.forEach(circle =>{
             circle.classList.replace('WhiteCircle','DarkCircle');
         })
-        loading.forEach(load =>{
-            load.classList.replace('White','Dark');
-        })
+
     }else{
         localStorage.setItem("Theme", "claro");
         imagentb.src="./img/icons/moon.png";
@@ -117,9 +110,6 @@ function cambiarModo(e){
         })
         circle.forEach(circle =>{
             circle.classList.replace('DarkCircle','WhiteCircle');
-        })
-        loading.forEach(load =>{
-            load.classList.replace('Dark','White');
         })
 
     }
